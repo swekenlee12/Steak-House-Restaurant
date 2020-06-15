@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/*
+======================================
+Navbar
+======================================
+*/
+
+.navbar {
+  background-color: #d41406;
+  color: white;
+  width: 100%;
+  height: 5em;
+
+}
+
+.steak-house-text {
+  font-size: 2em;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0;
+}
+/*
+=========================================
+Jumbotron
+=========================================
+*/
+
+.jumbotron {
+  background-color: black;
+}
+.container-jum {
+  position: relative;
+}
+
+.jum-text-block {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  font-size: 10em;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 5px solid #ffffff;
+}
+
+/*
+================================================
+Store Hours
+================================================
+*/
+
+.store-hours {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+
+.deal-picker {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+.deal-text {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3rem;
+}
+/*
+=============================================
+Dinecard
+=============================================
+*/
+
+.layout-diner-card {
+  margin: 5rem auto;
+  width: 1200px;
+}
+
+.card-diner {
+  display: inline-block;
+  margin: 0 auto;
+  margin-right: 5em;
+ 
+}
+
+.card-img-top:hover {
+  border: 5px solid #d41406;
+}
+
+.card-img-top {
+  width: 20rem;
+  height: 15rem;
+}
+@media only screen and (max-width: 415px) {
+  .deal-picker{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+  }
+}
+
+.diner-card {
+  margin: 5rem auto;
+  max-width: 1260px;
+  width: 960px;
+}
+
+/*
+=====================================
+FOOTER
+=====================================
+
+*/
+
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+
+@media only screen and (max-width: 415px) {
+  .deal-text{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 415px){
+  .card-diner {
+    display: block;
+    margin: 2rem auto;
+    width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width: 415px) {
+
+  .layout-diner-card {
+    
+      margin: 5rem auto;
+      width: 415px;
+    
+  }
+}
+
+@media only screen and (max-width: 415px){
+  .jumbotron {
+    display: none;
+  }
+}
